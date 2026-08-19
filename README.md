@@ -20,4 +20,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Tabs
 
-Home · About · Practice Areas · Our People · Insights · Contact
+Home · About · Practice Areas · Our People · Insights · Careers · Contact

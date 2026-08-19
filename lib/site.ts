@@ -11,6 +11,7 @@ export const nav = [
   { href: "/practice-areas", label: "Practice Areas" },
   { href: "/people", label: "Our People" },
   { href: "/insights", label: "Insights" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
@@ -70,6 +71,30 @@ export const people = [
     name: "Dolor Sit Amet",
     role: "Associate",
     bio: lorem.medium,
+  },
+];
+
+export const openings = [
+  {
+    slug: "associate",
+    title: "Associate · Lorem Ipsum",
+    location: "Bamenda · Grassfields",
+    type: "Full time",
+    summary: lorem.short,
+  },
+  {
+    slug: "pupillage",
+    title: "Pupillage · Dolor Sit Amet",
+    location: "Northwest Region",
+    type: "Fixed term",
+    summary: lorem.short,
+  },
+  {
+    slug: "clerk",
+    title: "Chambers Clerk · Consectetur",
+    location: "On site",
+    type: "Full time",
+    summary: lorem.short,
   },
 ];
 
