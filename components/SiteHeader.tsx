@@ -32,7 +32,7 @@ export function SiteHeader() {
             priority
           />
           <span>
-            <span className="block translate-y-1 font-serif text-lg font-bold leading-none tracking-[0.18em] text-forest uppercase md:text-xl">
+            <span className="block translate-y-1 font-serif text-xl font-bold leading-none tracking-[0.18em] text-forest uppercase md:text-2xl">
               {firm.name}
             </span>
             <span className="mt-0.5 block font-sans text-[10px] font-bold tracking-[0.46em] text-gold uppercase md:text-[11px]">
