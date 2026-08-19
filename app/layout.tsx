@@ -20,7 +20,7 @@ const cinzel = Cinzel({
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-source",
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
