@@ -35,7 +35,7 @@ export function SiteHeader() {
             <span className="block font-serif text-lg tracking-[0.18em] text-forest uppercase md:text-xl">
               {firm.name}
             </span>
-            <span className="mt-0.5 block text-[10px] tracking-[0.38em] text-gold-deep uppercase md:text-[11px]">
+            <span className="mt-0.5 block font-serif text-[10px] font-semibold tracking-[0.38em] text-gold-deep uppercase md:text-[11px]">
               Law Firm
             </span>
           </span>
