@@ -8,7 +8,7 @@
   --gold-deep: #8d6a2f;
   --gold-soft: #e8d5a3;
   --cream: #fcfaf6;
-  --mist: #e7eee6;
+  --mist: #f3f6f2;
   --ink: #1a1c16;
   --earth: #6b4a2e;
 }
@@ -56,6 +56,6 @@ body {
 
 .grass-grain {
   background-image:
-    radial-gradient(ellipse at top, rgba(196, 163, 90, 0.12), transparent 55%),
-    linear-gradient(180deg, transparent, rgba(16, 38, 26, 0.04));
+    radial-gradient(ellipse at top, rgba(196, 163, 90, 0.05), transparent 55%),
+    linear-gradient(180deg, transparent, rgba(16, 38, 26, 0.015));
 }
