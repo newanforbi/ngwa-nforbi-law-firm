@@ -24,6 +24,13 @@ export const metadata: Metadata = {
   },
   description:
     "Official website of Ngwa Nforbi Law Firm. Placeholder copy and Grassfields-inspired design.",
+  icons: {
+    icon: [
+      { url: "/brand/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/brand/favicon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/brand/favicon-192.png", type: "image/png", sizes: "192x192" }],
+  },
 };
 
 export default function RootLayout({
