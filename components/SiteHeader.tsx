@@ -18,7 +18,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-gold/30 bg-cream/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-2.5 md:px-8">
-        <Link href="/" className="shrink-0" onClick={() => setOpen(false)}>
+        <Link
+          href="/"
+          className="flex shrink-0 flex-col items-center"
+          onClick={() => setOpen(false)}
+        >
           <Image
             src="/brand/lockup-header.webp"
             alt={firm.legalName}
@@ -27,6 +31,9 @@ export function SiteHeader() {
             className="h-16 w-auto md:h-[4.75rem]"
             priority
           />
+          <span className="-mt-0.5 text-[10px] tracking-[0.32em] text-gold-deep uppercase md:text-[11px]">
+            Law Firm
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
