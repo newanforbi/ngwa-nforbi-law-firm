@@ -17,24 +17,16 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-gold/30 bg-cream/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 md:px-8">
-        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-2.5 md:px-8">
+        <Link href="/" className="shrink-0" onClick={() => setOpen(false)}>
           <Image
-            src="/brand/mark.webp"
-            alt={`${firm.legalName} mark`}
-            width={56}
-            height={49}
-            className="h-12 w-auto"
+            src="/brand/lockup-header.webp"
+            alt={firm.legalName}
+            width={236}
+            height={194}
+            className="h-16 w-auto md:h-[4.75rem]"
             priority
           />
-          <span className="leading-tight">
-            <span className="block font-serif text-lg tracking-[0.18em] text-forest uppercase">
-              {firm.name}
-            </span>
-            <span className="block text-[11px] tracking-[0.28em] text-gold-deep uppercase">
-              Law Firm
-            </span>
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
