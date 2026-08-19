@@ -21,7 +21,9 @@ export default function HomePage() {
             {firm.location}
           </p>
           <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-[0.95] text-cream md:text-7xl">
-            {firm.legalName}
+            <span className="block md:inline">{firm.name}</span>
+            <span className="hidden md:inline"> </span>
+            <span className="block md:inline">Law Firm</span>
           </h1>
           <p className="mt-5 max-w-xl font-serif text-2xl text-gold-soft md:text-3xl">
             {firm.tagline}
