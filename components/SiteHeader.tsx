@@ -20,25 +20,25 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-2.5 md:px-8">
         <Link
           href="/"
-          className="flex shrink-0 flex-col items-center"
+          className="flex shrink-0 items-center gap-3"
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/brand/lockup-header.webp"
-            alt={firm.legalName}
-            width={236}
-            height={194}
-            className="h-14 w-auto md:h-16"
+            src="/brand/crest.webp"
+            alt=""
+            width={105}
+            height={82}
+            className="h-10 w-auto md:h-11"
             priority
           />
-          <Image
-            src="/brand/motto.webp"
-            alt="Law firm. Rooted in heritage. Guided by justice. Committed to results."
-            width={1042}
-            height={195}
-            className="-mt-1 h-auto w-[11.5rem] md:w-[16rem]"
-            priority
-          />
+          <span className="leading-tight">
+            <span className="block font-serif text-lg tracking-[0.18em] text-forest uppercase md:text-xl">
+              {firm.name}
+            </span>
+            <span className="mt-0.5 block text-[10px] tracking-[0.38em] text-gold-deep uppercase md:text-[11px]">
+              Law Firm
+            </span>
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
