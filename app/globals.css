@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #10261a;
+  --forest-mid: #1c3a28;
+  --forest-deep: #0b1a12;
+  --gold: #c4a35a;
+  --gold-deep: #8d6a2f;
+  --gold-soft: #e8d5a3;
+  --cream: #f6f1e6;
+  --mist: #e7eee6;
+  --ink: #1a1c16;
+  --earth: #6b4a2e;
+}
+
+@theme inline {
+  --color-forest: var(--forest);
+  --color-forest-mid: var(--forest-mid);
+  --color-forest-deep: var(--forest-deep);
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-gold-soft: var(--gold-soft);
+  --color-cream: var(--cream);
+  --color-mist: var(--mist);
+  --color-ink: var(--ink);
+  --color-earth: var(--earth);
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-source);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-source), "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: var(--forest-deep);
+}
+
+.chevron-band {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--gold) 0 10px,
+    transparent 10px 14px,
+    var(--gold-deep) 14px 24px,
+    transparent 24px 28px
+  );
+  opacity: 0.55;
+}
+
+.grass-grain {
+  background-image:
+    radial-gradient(ellipse at top, rgba(196, 163, 90, 0.12), transparent 55%),
+    linear-gradient(180deg, transparent, rgba(16, 38, 26, 0.04));
+}
