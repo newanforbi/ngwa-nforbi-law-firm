@@ -24,11 +24,11 @@ export function SiteHeader() {
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/brand/crest.webp"
+            src="/brand/favicon.png"
             alt=""
-            width={105}
-            height={82}
-            className="h-10 w-auto md:h-11"
+            width={512}
+            height={512}
+            className="h-11 w-11 md:h-12 md:w-12"
             priority
           />
           <span className="leading-tight">
