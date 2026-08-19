@@ -28,7 +28,7 @@ export function SiteHeader() {
             alt=""
             width={512}
             height={512}
-            className="h-11 w-11 md:h-12 md:w-12"
+            className="h-14 w-14 md:h-16 md:w-16"
             priority
           />
           <span>
