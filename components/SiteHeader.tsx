@@ -28,12 +28,17 @@ export function SiteHeader() {
             alt={firm.legalName}
             width={236}
             height={194}
-            className="h-16 w-auto md:h-[4.75rem]"
+            className="h-14 w-auto md:h-16"
             priority
           />
-          <span className="-mt-0.5 text-[10px] tracking-[0.32em] text-gold-deep uppercase md:text-[11px]">
-            Law Firm
-          </span>
+          <Image
+            src="/brand/motto.webp"
+            alt="Law firm. Rooted in heritage. Guided by justice. Committed to results."
+            width={1042}
+            height={195}
+            className="-mt-1 h-auto w-[11.5rem] md:w-[16rem]"
+            priority
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
