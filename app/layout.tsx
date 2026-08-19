@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cinzel, Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
+import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { firm } from "@/lib/site";
@@ -8,12 +8,6 @@ import "./globals.css";
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   variable: "--font-cormorant",
-  weight: ["500", "600", "700"],
-});
-
-const cinzel = Cinzel({
-  subsets: ["latin"],
-  variable: "--font-cinzel-face",
   weight: ["500", "600", "700"],
 });
 
@@ -46,9 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${cormorant.variable} ${cinzel.variable} ${sourceSans.variable} antialiased grass-grain`}
-      >
+      <body className={`${cormorant.variable} ${sourceSans.variable} antialiased grass-grain`}>
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />

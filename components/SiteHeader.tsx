@@ -31,11 +31,11 @@ export function SiteHeader() {
             className="h-11 w-11 md:h-12 md:w-12"
             priority
           />
-          <span>
-            <span className="block translate-y-1 font-serif text-lg leading-none tracking-[0.18em] text-forest uppercase md:text-xl">
+          <span className="leading-tight">
+            <span className="block font-serif text-lg tracking-[0.18em] text-forest uppercase md:text-xl">
               {firm.name}
             </span>
-            <span className="mt-0.5 block font-cinzel text-[10px] font-semibold tracking-[0.46em] text-gold uppercase md:text-[11px]">
+            <span className="mt-0.5 block font-serif text-[10px] font-semibold tracking-[0.38em] text-gold-deep uppercase md:text-[11px]">
               Law Firm
             </span>
           </span>
